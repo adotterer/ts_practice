@@ -1,5 +1,5 @@
-function digitalRoot(num: number, radix: number): number {
-  if (num === 0) return 0
+function digitalRoot(num: number, radix: number): string {
+  if (num === 0) return "0"
   let numInRadix = num.toString(radix)
   while (numInRadix.length > 1) {
     let sum = 0
@@ -9,7 +9,7 @@ function digitalRoot(num: number, radix: number): number {
     }
     numInRadix = sum.toString(radix)
   }
-  return Number(numInRadix)
+  return numInRadix
 }
 
-console.log(digitalRoot(123, 16))
+console.log(digitalRoot(122, 15))
