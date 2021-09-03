@@ -1,0 +1,18 @@
+body {
+  background-color: blanchedalmond;
+  font-size: 100px;
+  line-height: 120px;
+}
+
+#blue_link:hover {
+  color: blue;
+}
+
+a.red_link:hover {
+  color: red;
+}
+
+a.wavy_purple:hover,
+a.wavy_purple:active {
+  text-decoration: purple wavy underline;
+}
