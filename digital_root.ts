@@ -12,4 +12,4 @@ function digitalRoot(num: number, radix: number): string {
   return numInRadix
 }
 
-console.log(digitalRoot(122, 15))
+console.log(digitalRoot(123, 10))
