@@ -19,3 +19,7 @@ body {
 .no {
   color: red;
 }
+
+.yes {
+  background-color: purple;
+}
